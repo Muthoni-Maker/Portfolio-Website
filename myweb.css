@@ -1,0 +1,72 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+#main-container{
+	display:flex;
+	width:100vw;
+	
+	background-color:grey;
+}
+
+
+#main-container-content{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction:column;
+	color:white;
+	width:50vw;
+	height:40vh;
+	background-color:black;
+}
+#navigation-bars{
+	color:white;
+	width:50vw;
+	height:40vh;
+	background-color:black;
+}
+#About-page-container{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	width:100vw;
+	height:80vh;
+	background-color:grey; 
+}
+#About-page{
+      width:50vw;
+      height:40vh;
+}
+#skills-part{
+      width:50vw;
+      height:40vh;
+}
+#lists{
+	display:block;
+}
+#Education{
+	  width:50vw;
+      height:40vh;
+}
+
+li{
+
+	display:inline-block;
+
+}
+a{
+	text-decoration:none;
+	color:white;
+	margin:30px 20px 20px 20px;
+}
+
+header{
+	padding-top:20px;
+}
+#footer{
+	width:100vw;
+	height:20vh;
+	background-color:white;
+}
